@@ -61,7 +61,7 @@ export default function Home() {
           </div>
         </div>
        
-        <div className="flex justify-between items-end mt-6 lg:mt-0"><div className="text-4xl font-bold"><div>Good morning <span className="text-gray-400">Awointa</span></div><div><span className="text-gray-400">Please review</span> today&apos;s activity</div></div> <Button className="shadow-md cursor-pointer" variant="outline"><Settings /> Customise</Button></div>
+        <div className="flex flex-col md:flex-row md:justify-between items-end mt-6 lg:mt-0"><div className="text-4xl font-bold"><div>Good morning <span className="text-gray-400">Awointa</span></div><div><span className="text-gray-400">Please review</span> today&apos;s activity</div></div> <Button className="shadow-md cursor-pointer mt-4 md:mt-0" variant="outline"><Settings /> Customise</Button></div>
 
         {/*Cards*/}
 
